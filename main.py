@@ -18,7 +18,7 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/html'
-        self.response.write('<body style=\'background-color: green\'>Papa Johns Red Blue release V.0.2.1.!</body>')
+        self.response.write('<body style=\'background-color: blue\'>Papa Johns Red Blue release V.0.2.2.!</body>')
 
 
 app = webapp2.WSGIApplication([
